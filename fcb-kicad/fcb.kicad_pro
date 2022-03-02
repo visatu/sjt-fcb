@@ -453,6 +453,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "e34045a9-1349-4528-a768-400cbbc4c314",
+      "SPI peripherials"
+    ],
+    [
+      "15f712db-5886-43f9-af5e-d8a1d5edb905",
+      "I2C Peripherials"
     ]
   ],
   "text_variables": {}

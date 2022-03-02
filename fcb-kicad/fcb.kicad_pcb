@@ -207,7 +207,7 @@
     (property "Sheetfile" "fcb.kicad_sch")
     (property "Sheetname" "")
     (path "/ce82bad6-71aa-4e24-b36b-840272b7c2a8")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H2" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 576cb25e-63be-4e68-a8bd-bd1946c153c6)
@@ -389,7 +389,7 @@
     (property "Sheetfile" "fcb.kicad_sch")
     (property "Sheetname" "")
     (path "/430209ac-5306-4944-be0d-ad99694bc4d6")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H4" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5df6cb4a-3143-4fde-9e5e-43900021c7b8)
@@ -600,7 +600,7 @@
     (property "Sheetfile" "fcb.kicad_sch")
     (property "Sheetname" "")
     (path "/8c8730ef-8afc-440c-bb89-45bbd19f3ef4")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H3" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8129d831-cd27-4847-abcd-664194cf1819)
@@ -626,7 +626,7 @@
     (property "Sheetfile" "fcb.kicad_sch")
     (property "Sheetname" "")
     (path "/4b64061a-4166-4c51-afb2-f57d202f9649")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "H1" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ba399cf3-6213-4233-9b2e-a844344c3329)
