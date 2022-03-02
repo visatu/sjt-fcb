@@ -384,8 +384,7 @@
         "nets": [
           "+3V3",
           "+5V",
-          "+BATT",
-          "-BATT"
+          "+BATT"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -461,6 +460,10 @@
     [
       "15f712db-5886-43f9-af5e-d8a1d5edb905",
       "I2C Peripherials"
+    ],
+    [
+      "5a53718f-be21-42e3-8a71-3f39996f502c",
+      "IO"
     ]
   ],
   "text_variables": {}
