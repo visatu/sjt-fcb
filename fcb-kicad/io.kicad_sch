@@ -1402,7 +1402,7 @@
   (symbol (lib_id "Device:LED") (at 88.9 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 61544e0e-20ae-4165-9b37-b121507d7808)
-    (property "Reference" "D?" (id 0) (at 91.821 117.519 90)
+    (property "Reference" "D6" (id 0) (at 91.821 117.519 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Blue, 3V" (id 1) (at 91.821 120.2941 90)
