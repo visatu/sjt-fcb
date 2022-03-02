@@ -2352,7 +2352,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid b9079aa9-3f88-4f41-934f-1c5f6e42f51a)
   )
-  (text "Datasheet has separate VDD and VDDIO \nVDDIO = Power supply for I/O pins\nCurrently both connected to 3V3"
+  (text "Datasheet has separate VDD and VDDIO \nVDDIO = Power supply for I/O pins\nCurrently both connected to 3V3\nVDD: 1.71-3.6 (V)\nVDDIO: 1.62-VDD + 0.1 (V)"
     (at 90.17 212.09 0)
     (effects (font (size 0.7 0.7)) (justify left bottom))
     (uuid b90a4e9e-1775-4d90-8bd1-b13386f883a9)
