@@ -3937,10 +3937,10 @@
     (uuid a04f48b5-074d-4b8b-a90e-d46d3e6098cc)
     (property "Reference" "Y1" (id 0) (at 134.62 158.9851 90))
     (property "Value" "16 MHz" (id 1) (at 134.62 161.29 90))
-    (property "Footprint" "" (id 2) (at 142.24 166.37 0)
+    (property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (id 2) (at 142.24 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 142.24 166.37 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2103291133_Yangxing-Tech-X322516MLB4SI_C13738.pdf" (id 3) (at 142.24 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C13738" (id 4) (at 142.24 166.37 0)
@@ -4668,9 +4668,6 @@
     (path "/5a53718f-be21-42e3-8a71-3f39996f502c/d5169184-7320-4f8a-82a7-74c0572ab98e"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
-    (path "/5a53718f-be21-42e3-8a71-3f39996f502c/21d68f7c-e448-4eec-ba4b-b89693d2d5ab"
-      (reference "#PWR036") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/5a53718f-be21-42e3-8a71-3f39996f502c/8edebb43-249a-4e9c-bf35-8120dc9fece3"
       (reference "#PWR037") (unit 1) (value "GND") (footprint "")
     )
@@ -4778,6 +4775,9 @@
     )
     (path "/e34045a9-1349-4528-a768-400cbbc4c314/6d75189e-2572-4f9a-9214-252d8aacae8b"
       (reference "#PWR0120") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/5a53718f-be21-42e3-8a71-3f39996f502c/40036466-b8fa-436d-bfc3-d3e3c4c64291"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/5a53718f-be21-42e3-8a71-3f39996f502c/d95f445b-a344-4489-9ecd-212419bfd59e"
       (reference "BZ1") (unit 1) (value "MLT-8530") (footprint "000_sjt:MLT-8350")
@@ -5029,7 +5029,7 @@
       (reference "U9") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/a04f48b5-074d-4b8b-a90e-d46d3e6098cc"
-      (reference "Y1") (unit 1) (value "16 MHz") (footprint "")
+      (reference "Y1") (unit 1) (value "16 MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
   )
 )
