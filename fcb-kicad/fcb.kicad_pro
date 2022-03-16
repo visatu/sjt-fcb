@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 5.6,
-          "width": 5.6
+          "height": 0.35,
+          "width": 0.38
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -53,9 +53,37 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.0,
+          "width": 0.2
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|146625000|102625000|ac693bb2-1c43-42d0-945e-d4870df7a210|899c291a-d04d-424b-9519-bb5607681455",
+        "clearance|147050000|101650000|641b27a0-bd61-4bac-adbe-26b207c06f2b|f98bfac8-1049-40f3-b47d-e8ba4a9743f2",
+        "clearance|147625000|101300000|c0ca44ba-1750-49b9-8ba2-1a8b993303c6|9a7302a1-20e4-4e67-a622-92bb88077fcf",
+        "clearance|147900000|103125000|d9c1d2a4-e76a-4865-9ba6-6f0e7693f727|8e3299ec-6478-478b-a0d2-d1c30a2de69b",
+        "clearance|148100000|101300000|9a7302a1-20e4-4e67-a622-92bb88077fcf|c8aa74dd-f341-43f3-a459-067305ad8867",
+        "clearance|148950000|102350000|bcd7d3e4-42c5-45de-aec3-70296de9261a|43716170-73ad-4dce-975d-02226c5667ca",
+        "clearance|149375000|101375000|a54703b9-5627-40c3-9b5b-cf308f1c0b32|cff32c60-fc49-4630-8b85-c0acc4d9e54b",
+        "clearance|149375000|101850000|cff32c60-fc49-4630-8b85-c0acc4d9e54b|bcd7d3e4-42c5-45de-aec3-70296de9261a",
+        "clearance|156567000|113933000|c7967c46-8727-43f7-b382-9af396dd4ba5|e6a67469-cb32-40ac-8558-2f3b18a0d01c",
+        "clearance|158097000|114067000|f7608206-2d5b-4a7e-92b5-d8094659437e|dda72b69-379c-4d72-bfe8-697a80782d4d",
+        "copper_edge_clearance|137550000|80225000|38df10e9-81f3-457a-adfd-7c5f70125710|1b928cd0-242c-45a1-b755-e1f708e170b2",
+        "copper_edge_clearance|147150000|80225000|38df10e9-81f3-457a-adfd-7c5f70125710|2e7a53a9-8cc6-4ec9-99da-86b9f4d15690",
+        "courtyards_overlap|144923442|110500000|2d36d082-4dab-41fc-b5a0-74e1c5c82d22|348f0dc1-2fce-4d8e-8a95-66b79092ec52",
+        "courtyards_overlap|155920001|109843443|348f0dc1-2fce-4d8e-8a95-66b79092ec52|e859bb91-ed39-40c2-a166-42333bbdf49f",
+        "hole_clearance|152750000|83988500|96336f9c-68b9-4fe1-801c-2a46a09e078a|ba3ee054-3f95-405e-a088-6c25cbaeaeb9",
+        "silk_over_copper|150050000|79500000|38df10e9-81f3-457a-adfd-7c5f70125710|74ece411-a622-4482-804a-6117693f265b",
+        "silk_over_copper|152145238|79500000|38df10e9-81f3-457a-adfd-7c5f70125710|fe0a5c01-4774-457a-91eb-3de41eed0be7",
+        "silk_over_copper|158050000|79500000|38df10e9-81f3-457a-adfd-7c5f70125710|80b6bcd8-7cf3-4725-96d8-fb1055ec03ee",
+        "zones_intersect|156850000|113100000|f9790b8d-d8b1-4ec5-b707-7beaab2f7d75|0d296020-5902-407e-81d7-ac6cc928ea61",
+        "zones_intersect|156850000|114750000|f9790b8d-d8b1-4ec5-b707-7beaab2f7d75|0d296020-5902-407e-81d7-ac6cc928ea61",
+        "zones_intersect|158150000|113100000|f9790b8d-d8b1-4ec5-b707-7beaab2f7d75|0d296020-5902-407e-81d7-ac6cc928ea61",
+        "zones_intersect|158150000|114750000|f9790b8d-d8b1-4ec5-b707-7beaab2f7d75|0d296020-5902-407e-81d7-ac6cc928ea61"
+      ],
       "meta": {
         "version": 2
       },
@@ -112,7 +140,7 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.13,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.13,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -120,7 +148,7 @@
       },
       "track_widths": [
         0.0,
-        0.25,
+        0.2,
         0.5,
         1.0
       ],
@@ -130,7 +158,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
+          "diameter": 0.46,
           "drill": 0.2
         },
         {
@@ -375,7 +403,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.4,
+        "via_diameter": 0.46,
         "via_drill": 0.2,
         "wire_width": 6.0
       },
@@ -413,7 +441,9 @@
           "+3V3",
           "+5V",
           "+BATT",
-          "/VIN"
+          "/IO/Q_buzzzer_C",
+          "/VIN",
+          "5V_USB"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

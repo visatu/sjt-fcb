@@ -1,6 +1,6 @@
 (footprint "MICRO-USB-SMD_U254-051T-4BH83-F1S" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 5F54F54C)
+  (tedit 6231EA66)
   (attr smd)
   (fp_text reference "REF**" (at 0 -5.5) (layer "F.Fab") hide
     (effects (font (size 1.143 1.143) (thickness 0.152)))
@@ -15,8 +15,8 @@
     (tstamp b4501435-1b74-4814-ac8d-457d48a8c57b)
   )
   (fp_line (start -4 4.325) (end 4 4.325) (layer "F.SilkS") (width 0.254) (tstamp 84aac022-880b-473d-82ad-f2827a88892f))
-  (fp_line (start 4 4.325) (end 4 -0.394) (layer "F.SilkS") (width 0.254) (tstamp d3349b0a-8f2b-4222-bb13-fa4f0f887f4d))
-  (fp_line (start -4 4.325) (end -4 -0.394) (layer "F.SilkS") (width 0.254) (tstamp ef855f52-01db-4405-9940-c5f27401f345))
+  (fp_line (start 4 4.325) (end 4 0) (layer "F.SilkS") (width 0.254) (tstamp d3349b0a-8f2b-4222-bb13-fa4f0f887f4d))
+  (fp_line (start -4 4.325) (end -4 0) (layer "F.SilkS") (width 0.254) (tstamp ef855f52-01db-4405-9940-c5f27401f345))
   (pad "" np_thru_hole circle (at -2 -1.025 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask)
     (zone_connect 0) (tstamp 0270c5c4-c68e-47b7-a6f1-50651981be2d))
   (pad "" np_thru_hole circle (at 2 -1.025 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask)
